@@ -194,7 +194,7 @@ class BaseTransferInformation implements TransferInformationInterface
     }
 
     /**
-     * @param string $remittanceInformation
+     * @param mixed $remittanceInformation
      */
     public function setRemittanceInformation($remittanceInformation)
     {
@@ -208,5 +208,4 @@ class BaseTransferInformation implements TransferInformationInterface
     {
         return $this->remittanceInformation;
     }
-
 }
